@@ -14,7 +14,7 @@ description: |
 
 *By Dr. Ernesto Lee*
 
-Welcome to **Business Intelligence** — a comprehensive guide to understanding how organizations collect, integrate, analyze, and act on data to make better decisions. This textbook covers the full analytics spectrum — from descriptive reporting to predictive modeling, text mining, and beyond.
+Welcome to **Business Intelligence** — a comprehensive textbook covering how organizations collect, integrate, analyze, and act on data to make better decisions. From descriptive analytics and data warehousing to predictive modeling, text mining, optimization, big data, and emerging trends — this book provides the complete foundation for data-driven decision making.
 
 ## Available Chapters
 
@@ -54,6 +54,11 @@ Mathematical programming, decision analysis, and simulation.
 :::{grid-item-card} Chapter 7: Big Data Concepts and Tools
 :link: ./chapters/ch07-big-data-concepts-tools.md
 Hadoop, MapReduce, NoSQL, stream analytics, and big data platforms.
+:::
+
+:::{grid-item-card} Chapter 8: Future Trends, Privacy and Managerial Considerations
+:link: ./chapters/ch08-future-trends-privacy.md
+IoT, cloud computing, location analytics, privacy, ethics, and the data science profession.
 :::
 
 ::::

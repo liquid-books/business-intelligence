@@ -46,6 +46,8 @@ project:
       title: "Chapter 6: Prescriptive Analytics — Optimization and Simulation"
     - file: chapters/ch07-big-data-concepts-tools.md
       title: "Chapter 7: Big Data Concepts and Tools"
+    - file: chapters/ch08-future-trends-privacy.md
+      title: "Chapter 8: Future Trends, Privacy and Managerial Considerations in Analytics"
 
 site:
   title: "Business Intelligence"
