@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <style>
+      .title { font: bold 24px sans-serif; fill: #1565C0; }
+      .phase { font: 16px sans-serif; fill: white; }
+      .arrow { fill: none; stroke: #FF6F00; stroke-width: 3; marker-end: url(#arrowhead); }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#FF6F00" />
+    </marker>
+  </defs>
+  
+  <text x="400" y="40" text-anchor="middle" class="title">CRISP-DM Process Cycle</text>
+  
+  <!-- Business Understanding -->
+  <circle cx="400" cy="100" r="60" fill="#1976D2" />
+  <text x="400" y="105" text-anchor="middle" class="phase">Business</text>
+  <text x="400" y="125" text-anchor="middle" class="phase">Understanding</text>
+  
+  <!-- Data Understanding -->
+  <circle cx="600" cy="200" r="60" fill="#7B1FA2" />
+  <text x="600" y="205" text-anchor="middle" class="phase">Data</text>
+  <text x="600" y="225" text-anchor="middle" class="phase">Understanding</text>
+  
+  <!-- Data Preparation -->
+  <circle cx="600" cy="400" r="60" fill="#F57C00" />
+  <text x="600" y="405" text-anchor="middle" class="phase">Data</text>
+  <text x="600" y="425" text-anchor="middle" class="phase">Preparation</text>
+  
+  <!-- Modeling -->
+  <circle cx="400" cy="500" r="60" fill="#C62828" />
+  <text x="400" y="510" text-anchor="middle" class="phase">Modeling</text>
+  
+  <!-- Evaluation -->
+  <circle cx="200" cy="400" r="60" fill="#2E7D32" />
+  <text x="200" y="410" text-anchor="middle" class="phase">Evaluation</text>
+  
+  <!-- Deployment -->
+  <circle cx="200" cy="200" r="60" fill="#00838F" />
+  <text x="200" y="210" text-anchor="middle" class="phase">Deployment</text>
+  
+  <!-- Arrows showing cycle -->
+  <path class="arrow" d="M 440,130 Q 520,150 560,180" />
+  <path class="arrow" d="M 600,260 L 600,340" />
+  <path class="arrow" d="M 560,430 Q 520,460 460,490" />
+  <path class="arrow" d="M 340,500 Q 260,480 240,440" />
+  <path class="arrow" d="M 200,340 L 200,260" />
+  <path class="arrow" d="M 240,170 Q 280,140 340,120" />
+  
+  <!-- Inner connections -->
+  <path class="arrow" d="M 360,140 Q 300,160 250,180" stroke-dasharray="5,5" />
+  <path class="arrow" d="M 550,230 Q 480,260 440,300" stroke-dasharray="5,5" />
+</svg>

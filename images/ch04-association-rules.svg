@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <style>
+      .title { font: bold 20px sans-serif; fill: #1565C0; }
+      .label { font: 14px sans-serif; fill: #424242; }
+      .product { font: 12px sans-serif; fill: white; }
+      .metric { font: 13px sans-serif; fill: #424242; }
+      .arrow { fill: none; stroke: #FF6F00; stroke-width: 3; marker-end: url(#arrowhead); }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#FF6F00" />
+    </marker>
+  </defs>
+  
+  <text x="400" y="30" text-anchor="middle" class="title">Market Basket Analysis: Association Rules</text>
+  
+  <!-- Shopping Basket -->
+  <g transform="translate(50,80)">
+    <path d="M 60,40 L 50,80 L 150,80 L 140,40 Z" fill="none" stroke="#8D6E63" stroke-width="3" />
+    <path d="M 80,25 Q 85,15 95,15 Q 105,15 110,25" fill="none" stroke="#8D6E63" stroke-width="3" />
+    <text x="100" y="120" text-anchor="middle" class="label" font-weight="bold">Shopping Basket</text>
+  </g>
+  
+  <!-- Products -->
+  <g id="products">
+    <!-- Milk -->
+    <rect x="100" y="200" width="80" height="60" rx="5" fill="#1976D2" />
+    <text x="140" y="235" text-anchor="middle" class="product">Milk</text>
+    
+    <!-- Bread -->
+    <rect x="220" y="200" width="80" height="60" rx="5" fill="#388E3C" />
+    <text x="260" y="235" text-anchor="middle" class="product">Bread</text>
+    
+    <!-- Butter -->
+    <rect x="340" y="200" width="80" height="60" rx="5" fill="#F57C00" />
+    <text x="380" y="235" text-anchor="middle" class="product">Butter</text>
+    
+    <!-- Diapers -->
+    <rect x="460" y="200" width="80" height="60" rx="5" fill="#7B1FA2" />
+    <text x="500" y="235" text-anchor="middle" class="product">Diapers</text>
+    
+    <!-- Beer -->
+    <rect x="580" y="200" width="80" height="60" rx="5" fill="#D32F2F" />
+    <text x="620" y="235" text-anchor="middle" class="product">Beer</text>
+  </g>
+  
+  <!-- Association Rules -->
+  <!-- Milk + Bread → Butter -->
+  <path class="arrow" d="M 180,230 L 340,230" />
+  <text x="260" y="220" text-anchor="middle" class="label" font-size="11">High Confidence</text>
+  
+  <!-- Diapers → Beer -->
+  <path class="arrow" d="M 540,230 L 580,230" />
+  <text x="560" y="220" text-anchor="middle" class="label" font-size="11">Lift > 1</text>
+  
+  <!-- Metrics Box -->
+  <g transform="translate(100,320)">
+    <rect x="0" y="0" width="600" height="150" rx="10" fill="#E3F2FD" stroke="#1565C0" stroke-width="2" />
+    <text x="300" y="30" text-anchor="middle" class="title" font-size="18">Key Metrics</text>
+    
+    <text x="20" y="65" class="metric" font-weight="bold">Support:</text>
+    <text x="100" y="65" class="metric">How often itemset appears in transactions</text>
+    <text x="100" y="85" class="metric" font-style="italic">Support({Milk, Bread}) = 200/1000 = 0.20</text>
+    
+    <text x="20" y="115" class="metric" font-weight="bold">Confidence:</text>
+    <text x="120" y="115" class="metric">Probability of Y given X</text>
+    <text x="120" y="135" class="metric" font-style="italic">Confidence({Milk, Bread} → {Butter}) = 100/200 = 0.50</text>
+    
+    <text x="350" y="65" class="metric" font-weight="bold">Lift:</text>
+    <text x="400" y="65" class="metric">Strength beyond independence</text>
+    <text x="400" y="85" class="metric" font-style="italic">Lift > 1: Positive association</text>
+    <text x="400" y="100" class="metric" font-style="italic">Lift = 1: Independent</text>
+    <text x="400" y="115" class="metric" font-style="italic">Lift < 1: Negative association</text>
+  </g>
+</svg>

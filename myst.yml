@@ -38,6 +38,8 @@ project:
       title: "Chapter 2: Descriptive Analytics I — Nature of Data, Statistical Modeling, and Visualization"
     - file: chapters/ch03-descriptive-analytics-bi-data-warehousing.md
       title: "Chapter 3: Descriptive Analytics II — Business Intelligence and Data Warehousing"
+    - file: chapters/ch04-predictive-analytics-data-mining.md
+      title: "Chapter 4: Predictive Analytics I — Data Mining Process, Methods, and Algorithms"
 
 site:
   title: "Business Intelligence"
