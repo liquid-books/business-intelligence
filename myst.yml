@@ -44,6 +44,8 @@ project:
       title: "Chapter 5: Predictive Analytics II — Text, Web, and Social Media Analytics"
     - file: chapters/ch06-prescriptive-analytics-optimization.md
       title: "Chapter 6: Prescriptive Analytics — Optimization and Simulation"
+    - file: chapters/ch07-big-data-concepts-tools.md
+      title: "Chapter 7: Big Data Concepts and Tools"
 
 site:
   title: "Business Intelligence"

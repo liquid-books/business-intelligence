@@ -51,4 +51,9 @@ Text mining, NLP, sentiment analysis, web mining, and social analytics.
 Mathematical programming, decision analysis, and simulation.
 :::
 
+:::{grid-item-card} Chapter 7: Big Data Concepts and Tools
+:link: ./chapters/ch07-big-data-concepts-tools.md
+Hadoop, MapReduce, NoSQL, stream analytics, and big data platforms.
+:::
+
 ::::
