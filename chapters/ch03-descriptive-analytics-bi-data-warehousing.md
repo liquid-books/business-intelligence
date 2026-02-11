@@ -62,7 +62,7 @@ numbering:
 
 # Descriptive Analytics II: Business Intelligence and Data Warehousing
 
-:::{figure} ../images/ch03-bi-warehouse-hero.jpg
+:::{figure} ../images/ch03-bi-warehouse-hero.png
 :label: fig-ch03-hero
 :alt: An enterprise data warehouse visualization showing data from many sources converging into a centralized analytical system
 :width: 100%
@@ -192,7 +192,7 @@ BI is not a single product or tool. It is an **ecosystem** that includes:
 - **Data mining** — pattern discovery and predictive modeling
 - **Self-service analytics** — tools that empower non-technical users to explore data
 
-:::{figure} ../images/ch03-bi-ecosystem.jpg
+:::{figure} ../images/ch03-bi-ecosystem.png
 :label: fig-ch03-bi-ecosystem
 :alt: The BI ecosystem showing data sources feeding through ETL into a warehouse, then out to various analytical tools and end users
 :width: 95%
@@ -585,7 +585,7 @@ A warehouse is never "done." Ongoing activities include:
 
 The architecture of a data warehouse defines the overall blueprint: how data flows from source systems through intermediate layers to the end-user analytical tools.
 
-:::{figure} ../images/ch03-dw-architecture.jpg
+:::{figure} ../images/ch03-dw-architecture.png
 :label: fig-ch03-architecture
 :alt: Comparison of data warehouse architectures showing the Inmon top-down approach, Kimball bottom-up approach, and hybrid
 :width: 95%
@@ -1085,7 +1085,7 @@ In practice, most organizations use **star schemas** because the performance adv
 
 **OLAP** provides the ability to interactively explore multi-dimensional data, enabling users to navigate through different levels of detail and perspectives with speed and flexibility.
 
-:::{figure} ../images/ch03-olap-cube.jpg
+:::{figure} ../images/ch03-olap-cube.png
 :label: fig-ch03-olap-cube
 :alt: A 3D visualization of an OLAP cube with Time, Product, and Geography dimensions
 :width: 80%
@@ -1502,7 +1502,7 @@ A complete performance measurement system includes:
 
 The **Balanced Scorecard (BSC)** was developed by **Robert Kaplan** (Harvard Business School) and **David Norton** in 1992. It was born from a simple but powerful insight: organizations that manage exclusively by financial metrics are **driving by looking in the rearview mirror**. Financial results are lagging indicators — they tell you what already happened. By the time you see a revenue decline, the underlying causes (customer dissatisfaction, employee disengagement, process failures) have been festering for months.
 
-:::{figure} ../images/ch03-balanced-scorecard.jpg
+:::{figure} ../images/ch03-balanced-scorecard.png
 :label: fig-ch03-bsc
 :alt: The four perspectives of the Balanced Scorecard framework arranged around a central Strategy hub
 :width: 85%
