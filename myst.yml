@@ -1,5 +1,4 @@
 # MyST project configuration
-# Docs: https://mystmd.org/guide/configuration
 version: 1
 project:
   title: "Business Intelligence"
@@ -9,14 +8,11 @@ project:
       email: socrates73@gmail.com
   description: |
     A comprehensive textbook covering business intelligence, data warehousing,
-    descriptive and predictive analytics, and data-driven decision making for
-    undergraduate and graduate students.
+    descriptive and predictive analytics, and data-driven decision making.
   keywords:
     - business intelligence
     - data warehousing
     - analytics
-    - data mining
-    - performance management
   license: CC-BY-4.0
   open_access: true
   github: https://github.com/liquid-books/business-intelligence
@@ -25,15 +21,8 @@ project:
     DW: Data Warehouse
     ETL: Extraction, Transformation, and Load
     OLAP: Online Analytical Processing
-    OLTP: Online Transaction Processing
     KPI: Key Performance Indicator
     BSC: Balanced Scorecard
-    BPM: Business Performance Management
-    EDW: Enterprise Data Warehouse
-    ODS: Operational Data Store
-    SQL: Structured Query Language
-    CRM: Customer Relationship Management
-    ERP: Enterprise Resource Planning
   numbering:
     heading_1: true
     heading_2: true
@@ -43,12 +32,10 @@ project:
     equation: true
   toc:
     - file: index.md
-    - title: "Chapter 1: An Overview of Business Intelligence, Analytics, and Data Science"
-      children:
-        - file: chapters/ch01-overview-bi-analytics-data-science.md
-    - title: "Chapter 3: Descriptive Analytics II — Business Intelligence and Data Warehousing"
-      children:
-        - file: chapters/ch03-descriptive-analytics-bi-data-warehousing.md
+    - file: chapters/ch01-overview-bi-analytics-data-science.md
+      title: "Chapter 1: An Overview of Business Intelligence, Analytics, and Data Science"
+    - file: chapters/ch03-descriptive-analytics-bi-data-warehousing.md
+      title: "Chapter 3: Descriptive Analytics II — Business Intelligence and Data Warehousing"
 
 site:
   title: "Business Intelligence"
