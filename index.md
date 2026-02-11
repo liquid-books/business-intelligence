@@ -46,4 +46,9 @@ Data mining process, classification, clustering, and association rules.
 Text mining, NLP, sentiment analysis, web mining, and social analytics.
 :::
 
+:::{grid-item-card} Chapter 6: Prescriptive Analytics — Optimization and Simulation
+:link: ./chapters/ch06-prescriptive-analytics-optimization.md
+Mathematical programming, decision analysis, and simulation.
+:::
+
 ::::
