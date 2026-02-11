@@ -34,6 +34,8 @@ project:
     - file: index.md
     - file: chapters/ch01-overview-bi-analytics-data-science.md
       title: "Chapter 1: An Overview of Business Intelligence, Analytics, and Data Science"
+    - file: chapters/ch02-descriptive-analytics-data-visualization.md
+      title: "Chapter 2: Descriptive Analytics I — Nature of Data, Statistical Modeling, and Visualization"
     - file: chapters/ch03-descriptive-analytics-bi-data-warehousing.md
       title: "Chapter 3: Descriptive Analytics II — Business Intelligence and Data Warehousing"
 
