@@ -43,7 +43,10 @@ project:
     equation: true
   toc:
     - file: index.md
-    - title: "Chapter 3"
+    - title: "Chapter 1: An Overview of Business Intelligence, Analytics, and Data Science"
+      children:
+        - file: chapters/ch01-overview-bi-analytics-data-science.md
+    - title: "Chapter 3: Descriptive Analytics II — Business Intelligence and Data Warehousing"
       children:
         - file: chapters/ch03-descriptive-analytics-bi-data-warehousing.md
 
