@@ -56,9 +56,6 @@ abbreviations:
 
 # Chapter 1: An Overview of Business Intelligence, Analytics, and Data Science
 
-![Business Intelligence and Analytics Hero](../images/ch01-bi-analytics-hero.jpg)
-*Figure 1.1: The landscape of modern business intelligence, analytics, and data-driven decision making*
-
 ## 1.1 Opening Vignette: Sports Analytics
 
 ::::{grid} 1 1 2 2
@@ -975,9 +972,6 @@ As we explore modern BI and analytics frameworks in the next section, we'll see 
 ## 1.4 A Framework for Business Intelligence
 
 Business Intelligence represents the convergence of technologies, processes, and practices that enable organizations to transform raw data into actionable insights. This section presents a comprehensive framework for understanding and implementing BI in modern organizations.
-
-![Business Intelligence Framework Architecture](../images/ch01-bi-framework.jpg)
-*Figure 1.2: The comprehensive BI framework showing data flow from sources through analytics to decision-making*
 
 ### Definitions of BI
 
@@ -2325,9 +2319,6 @@ This approach enables BI to be seamlessly embedded into any application or workf
 ## 1.5 Analytics Overview
 
 While Business Intelligence focuses on understanding historical and current performance, **Analytics** extends into predictive and prescriptive realms, using statistical and machine learning techniques to forecast future outcomes and recommend optimal actions.
-
-![Analytics Types and Evolution](../images/ch01-analytics-types.jpg)
-*Figure 1.3: The three types of analytics showing progression from descriptive to predictive to prescriptive*
 
 ### The Analytics Hierarchy
 

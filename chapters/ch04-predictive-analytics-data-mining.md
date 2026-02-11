@@ -427,7 +427,7 @@ flowchart TD
     style F fill:#b2dfdb
 ```
 
-:::{figure} ../images/ch04-crisp-dm-cycle.svg
+:::{figure} ../images/ch04-crisp-dm-cycle.png
 :label: fig-ch04-crisp-dm-cycle
 :alt: CRISP-DM Lifecycle Diagram
 :width: 80%
@@ -1118,7 +1118,7 @@ Data mining encompasses a diverse set of techniques, each suited to different ty
 
 ### Classification
 
-:::{figure} ../images/ch04-classification-methods.svg
+:::{figure} ../images/ch04-classification-methods.png
 :label: fig-ch04-classification-methods
 :alt: Classification Methods Overview
 :width: 80%
@@ -1511,7 +1511,7 @@ Healthcare is shifting from reactive treatment to proactive prevention, and pred
 
 ### Cluster Analysis for Data Mining
 
-:::{figure} ../images/ch04-clustering-visualization.svg
+:::{figure} ../images/ch04-clustering-visualization.png
 :label: fig-ch04-clustering-visualization
 :alt: Clustering Visualization
 :width: 80%
@@ -1713,7 +1713,7 @@ DBSCAN identifies clusters as dense regions separated by sparse regions, without
 
 ### Association Rule Mining
 
-:::{figure} ../images/ch04-association-rules.svg
+:::{figure} ../images/ch04-association-rules.png
 :label: fig-ch04-association-rules
 :alt: Association Rule Mining Concept
 :width: 80%
@@ -1843,7 +1843,7 @@ print(rules[['antecedents', 'consequents', 'support',
 
 ## 4.6 Data Mining Software Tools
 
-:::{figure} ../images/ch04-data-mining-tools.svg
+:::{figure} ../images/ch04-data-mining-tools.png
 :label: fig-ch04-data-mining-tools
 :alt: Data Mining Software Tools Ecosystem
 :width: 80%
