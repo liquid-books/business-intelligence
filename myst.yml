@@ -40,6 +40,8 @@ project:
       title: "Chapter 3: Descriptive Analytics II — Business Intelligence and Data Warehousing"
     - file: chapters/ch04-predictive-analytics-data-mining.md
       title: "Chapter 4: Predictive Analytics I — Data Mining Process, Methods, and Algorithms"
+    - file: chapters/ch05-text-web-social-analytics.md
+      title: "Chapter 5: Predictive Analytics II — Text, Web, and Social Media Analytics"
 
 site:
   title: "Business Intelligence"
