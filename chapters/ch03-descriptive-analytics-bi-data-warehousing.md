@@ -11,10 +11,6 @@ date: 2026-02-11
 authors:
   - name: Dr. Ernesto Lee
     email: socrates73@gmail.com
-    affiliations:
-      - Florida Atlantic University
-      - Miami Dade College
-      - Palm Beach Atlantic University
 tags:
   - business-intelligence
   - data-warehousing

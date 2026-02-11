@@ -43,9 +43,14 @@ project:
     equation: true
   toc:
     - file: index.md
-    - file: chapters/ch03-descriptive-analytics-bi-data-warehousing.md
+    - title: "Chapter 3"
+      children:
+        - file: chapters/ch03-descriptive-analytics-bi-data-warehousing.md
 
 site:
   title: "Business Intelligence"
   options:
-    footer: "Business Intelligence — Dr. Ernesto Lee"
+    logo_text: "Business Intelligence"
+    logo_url: "/"
+  parts:
+    primary_sidebar_footer: primary-sidebar-footer.md
