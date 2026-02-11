@@ -5,7 +5,8 @@ project:
   title: "Business Intelligence"
   subtitle: "A Modern Approach to Data-Driven Decision Making"
   authors:
-    - name: liquid-books
+    - name: Dr. Ernesto Lee
+      email: socrates73@gmail.com
   description: |
     A comprehensive textbook covering business intelligence, data warehousing,
     descriptive and predictive analytics, and data-driven decision making for
@@ -47,5 +48,4 @@ project:
 site:
   title: "Business Intelligence"
   options:
-    favicon: null
-    logo: null
+    footer: "Business Intelligence — Dr. Ernesto Lee"

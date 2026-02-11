@@ -1,6 +1,8 @@
 ---
 title: "Business Intelligence"
 subtitle: "A Modern Approach to Data-Driven Decision Making"
+authors:
+  - name: Dr. Ernesto Lee
 description: |
   A comprehensive textbook covering business intelligence, data warehousing,
   analytics, and data-driven decision making.
@@ -9,6 +11,8 @@ description: |
 # Business Intelligence
 
 **A Modern Approach to Data-Driven Decision Making**
+
+*By Dr. Ernesto Lee*
 
 Welcome to **Business Intelligence** — a comprehensive guide to understanding how organizations collect, integrate, analyze, and act on data to make better decisions.
 
